@@ -1,5 +1,3 @@
-#define CAPACITY 10000
-
 using namespace std;
 
 class Stack {
