@@ -93,7 +93,6 @@ bool Stack<T>::stackResize(int resize) {
 			newDataPtr[i] = m_data[i];
 		delete [] m_data;
 		m_size = resize;
-		m_data = new T [m_size];
 		m_data = newDataPtr;
 		newDataPtr = NULL;
 		return true;
